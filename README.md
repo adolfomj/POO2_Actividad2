@@ -1,7 +1,7 @@
 # POO2 - Actividad 2  
 ## Evidencia de Aprendizaje 2: Taller práctico UML
 
-Hola profesor, en este repositorio se encuentra el material correspondiente a la **Actividad 2 de Programación Orientada a Objetos II**, donde se desarrolló el **Taller práctico de UML**.
+Hola profesor, en este repositorio se encuentra el material correspondiente a la **Actividad 2 de Programación Orientada a Objetos II**, donde se desarrolló el Taller práctico de UML.
 
 Aquí se incluyen los diagramas solicitados, el documento final y los códigos utilizados para generarlos.
 
@@ -14,7 +14,7 @@ Para la elaboración de los diagramas se utilizó **PlantUML**, una herramienta 
 
 De manera similar al trabajo anterior, los diagramas fueron construidos utilizando código PlantUML basado en los requerimientos del sistema de reservas de hotel.
 
-Durante el proceso, **ChatGPT fue utilizado como apoyo para estructurar el código de los diagramas**, a partir de los requerimientos proporcionados en el taller.
+Durante el proceso, ChatGPT fue utilizado como apoyo para estructurar el código de los diagramas, a partir de los requerimientos proporcionados en el taller.
 
 Sitio oficial de PlantUML:  
 https://plantuml.com/
