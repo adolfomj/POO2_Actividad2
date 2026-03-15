@@ -1,0 +1,53 @@
+
+@startuml
+
+class Hotel {
+    -nombre : String
+    -direccion : String
+    +obtenerHabitacionesDisponibles(tipo : TipoHabitacion)
+    +obtenerPrecioHabitacion(tipo : TipoHabitacion)
+    +cambiarPrecio(tipo : TipoHabitacion, precio : double)
+    +calcularGanancias(mes : int)
+}
+
+class Habitacion {
+    -numero : int
+    -tipo : TipoHabitacion
+    -precio : double
+    -disponible : boolean
+    +obtenerPrecio()
+    +mostrarFoto()
+}
+
+enum TipoHabitacion {
+    SIMPLE
+    DOBLE
+    MATRIMONIAL
+}
+
+class Cliente {
+    -idCliente : int
+    -nombre : String
+    -tipo : TipoCliente
+    +obtenerDescuento()
+}
+
+enum TipoCliente {
+    HABITUAL
+    ESPORADICO
+}
+
+class Reserva {
+    -numeroReserva : int
+    -fechaInicio : Date
+    -cantidadNoches : int
+    +calcularTotal()
+    +crearReserva()
+    +cancelarReserva()
+}
+
+Cliente "1" -- "0..*" Reserva : realiza
+Reserva "1" -- "1" Habitacion : asigna
+Hotel "1" -- "0..*" Habitacion : contiene
+
+@enduml
