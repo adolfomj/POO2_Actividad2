@@ -1,0 +1,18 @@
+@startuml
+
+package "Requerimientos del Sistema de Reservas del Hotel" {
+
+artifact "R1\nConsultar habitaciones disponibles por tipo"
+artifact "R2\nConsultar precio de una habitación"
+artifact "R3\nConsultar descuento para clientes habituales"
+artifact "R4\nCalcular precio total de una reserva"
+artifact "R5\nMostrar foto de una habitación"
+artifact "R6\nReservar habitación"
+artifact "R7\nEliminar reserva"
+artifact "R8\nCambiar precio de habitación"
+artifact "R9\nCambiar descuento para clientes habituales"
+artifact "R10\nCalcular ganancias mensuales del hotel"
+
+}
+
+@enduml

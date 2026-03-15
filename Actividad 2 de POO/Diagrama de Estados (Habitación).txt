@@ -1,0 +1,12 @@
+
+@startuml
+
+[*] --> Disponible
+
+Disponible --> Reservada : crearReserva()
+Reservada --> Ocupada : llegadaCliente()
+Ocupada --> Disponible : checkout()
+
+Reservada --> Disponible : cancelarReserva()
+
+@enduml
