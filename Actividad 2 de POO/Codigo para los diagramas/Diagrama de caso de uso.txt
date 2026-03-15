@@ -1,0 +1,36 @@
+
+@startuml
+left to right direction
+
+actor Recepcionista
+actor Administrador
+
+rectangle "Sistema de Reservas del Hotel" {
+
+(Consultar habitaciones disponibles)
+(Consultar precio de habitación)
+(Consultar descuento cliente habitual)
+(Calcular precio total de reserva)
+(Mostrar foto de habitación)
+(Reservar habitación)
+(Eliminar reserva)
+
+(Cambiar precio de habitación)
+(Cambiar descuento cliente habitual)
+(Calcular ganancias mensuales)
+
+Recepcionista --> (Consultar habitaciones disponibles)
+Recepcionista --> (Consultar precio de habitación)
+Recepcionista --> (Consultar descuento cliente habitual)
+Recepcionista --> (Calcular precio total de reserva)
+Recepcionista --> (Mostrar foto de habitación)
+Recepcionista --> (Reservar habitación)
+Recepcionista --> (Eliminar reserva)
+
+Administrador --> (Cambiar precio de habitación)
+Administrador --> (Cambiar descuento cliente habitual)
+Administrador --> (Calcular ganancias mensuales)
+
+}
+
+@enduml
